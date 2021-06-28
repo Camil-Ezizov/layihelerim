@@ -1,0 +1,245 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+
+body{
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+.container-1140{
+    width: 1120px;
+}
+
+.header-items {
+  background-image: url("/img/header-img.jpg");
+  min-height: 370px;
+  background-position:center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+}
+.header-opacity{
+    background-color: black;
+    opacity: .75;
+    height: 370px;
+}
+.menu-item-list::before{
+    position: relative;
+    top: -30px;
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color:white;
+    transition: width .3s;
+   
+}
+
+.menu-item-list:hover::before{
+   
+    width: 100%;
+    transition: width .2s; 
+}
+
+
+
+.menu-item-list{
+  padding: 30px 15px;
+  font-size: 11px;
+  position: relative;
+}
+.menu-item-list a{
+    color: #fff;
+  }
+.menu-bottom-text{
+          font-family: 'Slabo 27px', serif;
+          font-weight: 400;
+  }
+.menu-bottom-item-list{
+    padding-left: 15px;
+  font-size: 11px;
+}
+.menu-item-list i{
+    color: white;
+    padding-left: 1px;
+}
+.alt-menu{
+    display: none;
+    list-style: none;
+    background-color: white;
+   position: absolute;
+   right: 0px;
+   top: 65px;
+   width:165px;
+   z-index: 1;
+}
+.alt-menu li{
+    padding: 10px 15px;
+}
+.alt-menu li:hover{
+   background-color: #e8ebf1;
+   transition:3s;
+}
+.menu-item-list:hover .alt-menu{
+    display: block;
+}
+.alt-menu li a{
+    color: #5b5c5f;
+    font-size: 13px !important;
+    font-weight: 300;
+ 
+}
+.select-title h2{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: #353537;
+    font-size: 30px;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+}
+.select-seperator::after{
+    display: block;
+    content: '';
+    margin: auto;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #7ca7b2;
+}
+.select-header{
+    background-color: #84b0b9;
+     border-radius: 5px 5px 0px 0px;
+}
+.select-btn {
+    border-radius: 0px 0px 5px 5px  !important
+}
+.prices{background-color: #9abec5;}
+.select-header h5{line-height: 40px;}
+.select-subtitle{
+    color: #5b5c5f;
+    line-height: 2;    
+}
+.prices-sent{
+    vertical-align: super;
+}
+.prices-text{
+    vertical-align: super;
+}
+.list-group-item{
+    padding: 10px 15px;
+}
+.list-group-left{
+    color: #5b5c5f;
+}
+.list-group-right{
+    background-color: #7ca7b2;
+    border-radius: 2px;
+}
+.select-btn button{
+    background-color: #7ca7b2;
+    color: #fff;
+}
+.select-btn-last .btn{
+    color: #fff;
+    background-color: #ec6957;
+}
+.select-bottom span{
+    color:  #ec6957;
+}
+
+.footer-items{
+    background-color: #2e313d;
+}
+.footer-menu ul li a{
+    margin: 0px 3px 3px 0px;
+    padding: .07em .7em !important;
+    font-size: inherit;
+    background-color: #292b36;
+    color: #fff;
+    border-color: #292b36;;
+}
+.footer-center-header h2{
+    font-family: 'Slabo 27px', serif;
+}
+.footer-center-img:hover{
+    filter: grayscale(100%);
+}
+.footer-center-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.footer-center-img div p{
+    font-size: 14px;
+    color: #7ca7b2;;
+}
+
+.footer-center-img div span{
+    color: #b8b8b8;
+    font-size: 14px;
+}
+.footer-right-header{
+    font-family: 'Slabo 27px', serif;
+}
+
+.footer-inst-img{
+    width: 80px;
+    height: 80px;
+}
+.footer-inst-img img{
+    min-width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+.footer-inst-img:hover{
+    filter: grayscale(100%);
+}
+.footer{
+    background-color: #262933;
+}
+.icons-item{
+    padding: 30px 0px;
+}
+.icons{
+  
+    border-radius: 50%;
+    border:1px solid ;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.cursor-point-facebook:hover{
+     background-color: #3b5998;
+}
+.cursor-point-twitter:hover{
+    background-color: #00aced;
+}
+.cursor-point-linkedin:hover{
+    background-color: #267fac;
+}
+
+.cursor-point-linkedin:hover{
+    background-color: #267fac;
+}
+.cursor-point-instagram:hover{
+background-color: #bc2a8d;
+}
+.cursor-point-google-plus:hover{
+    background-color: #dd4b39;;
+}
+.footer-text a{
+    color: #8fb7bf;
+}
+.footer-text a:hover{
+    color: #5d919e;
+}
+

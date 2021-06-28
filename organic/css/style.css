@@ -1,0 +1,38 @@
+*, *:after, *:before { box-sizing: border-box; }
+
+.container{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid{
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-img img{
+    width: 100%;
+}
+.header-text{
+    color: #acacac;
+}
+.imgs img{
+    width: 240px;
+}
+.imgs-item{
+    margin-bottom: 50px;
+}
+.img-right{
+    margin-left: 20px;
+}
+.click-organic a{
+    padding-left: 20px;
+}
+.img-bottom{
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: #63be79;
+    padding: 20px 0px;
+}

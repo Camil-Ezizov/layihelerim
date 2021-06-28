@@ -1,0 +1,142 @@
+*, *:after, *:before { box-sizing: border-box; }
+
+
+
+.header{background-color: #a2a19e;}
+.container-fluid{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-items{  
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.header-text{}
+.header-text h1{
+    margin: 0px;
+    color: #020402;
+    font-size: 24px;
+}
+.header-text p{
+    margin: 0px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.header-menu{
+    background-color: #030303;
+    border-radius: 3px;
+  
+}
+.header-menu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.header-menu ul li{
+    padding: 6px 20px 6px 10px;
+    font-size: 13px;
+}
+.header-menu ul li:first-child{
+    background-color: #782b33;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 20px 6px 10px;
+    font-size: 13px;
+}
+
+.container-bottom{
+    background-color: #f7f6f2;
+}
+.article{
+   padding: 0px 30px 6px 17px;
+}
+.article-left{
+    width: 60%;
+
+}
+.article-left h2{    margin-bottom: 0px;}
+.article-left h3{   
+     margin: 0px;
+    }
+.article-left p{
+    margin-top: 6px;
+}
+.article-right{
+    width: 40%;
+}
+.article-right img{
+    width: 200px;
+    margin: 34px 0px 0px 85px;
+}
+.date-title {  
+    padding: 20px 25px 6px 17px;
+    margin-top: 20px; 
+}
+.data-title-items{
+    border-bottom: 2px solid#f7f6f2;
+}
+.camil{
+    margin: 0px !important;
+}
+.date-title-left p span{
+    padding-right: 5px;
+}
+.date-title-left p a{
+    color: red;
+    padding-left: 10px;
+}
+.namess{
+    margin-bottom: 0px;
+}
+.names-top{
+    margin-top: 3       px;
+}
+.data-title-right p{
+    margin-top: 0px;
+}
+.socials-left-header h4{
+    margin-bottom: 0px;
+}
+.socials-left-items{
+    padding-top:10px ;
+}
+.socials-item p{
+    margin:0px 0px 5px 0px;
+    font-size: 12px;
+}
+.socials-right-header h4{
+    margin-bottom: 7px;
+}
+.socials-right-items div span{
+    padding-left: 10px;   
+}
+.socials-right-items div{
+    margin:0px 0px 5px 0px;
+}
+.bottom-texts-left h3{
+    margin-bottom: 0px;
+}
+.bottom-texts-left p{
+    margin-top: 5px;
+}
+.bottom-texts {
+    padding-left: 17px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.bottom-img img{
+    padding-top: 20px;
+    width: 60px;
+}
+.bottom-texts-right p{
+    padding-left: 20px;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer p a{
+    color: red;
+}

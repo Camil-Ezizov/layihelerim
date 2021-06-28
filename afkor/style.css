@@ -1,0 +1,158 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+
+body{
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 2000px;
+}
+.menu{
+    height: 600px;
+}
+.header-menu{
+    z-index: 1;
+}
+.header-menu-items{
+    position: relative;
+}
+.menu-header-text{
+   padding-bottom: 100px;
+}
+.header-menu-item small{
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: black;
+    text-align: center;
+position: absolute;
+top: -10px;
+right: -13px;
+}
+
+.header-img img{
+    height: 490px;
+    position: relative;
+    top: -40px;
+    left: 24px;
+}
+.menu-header-text .btn{
+    border: 2px solid white;
+    border-radius: 0%;
+    color: white;
+   padding: 10px 30px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.header-social-items {
+    
+    position: relative;
+    bottom: 60px;
+}
+ .out-about-left-img{
+    position: relative;
+     bottom: 100px;
+    
+}
+.out-about-left-img{
+    width: 430px;
+    height: 450px;
+    background-color: white;
+}
+.out-about-left-img img{
+    width: 100%;
+    height: 100%;  
+}
+.out-about-left-img img{
+  padding: 20px;
+}
+.our-mission h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.fa-angle-left,.fa-angle-right{
+    font-size: 24px;
+}
+
+.our-team-img  img{
+    width: 100%;
+}
+.company-achivement-title{
+    font-family: "Poppins", sans-serif;
+
+}
+
+.company-achivement-items h3{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+.case-study-imgs div{
+    height: 530px;
+    padding: 0px;
+}
+.case-study-imgs div img{
+    width: 100%;
+}
+
+.our-journal h2{
+  font-weight: 600; 
+}
+.partner-coursel-btn{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    opacity: 0.5;
+}
+.partner-coursel-btn a i{
+ color: white;
+}
+.creative-project-title h2{
+    font-family: "Montserrat", sans-serif;
+}
+
+.cretive-project-form input{
+   border:none;
+   border-bottom: 1px solid #ededed;
+
+}
+.footer-img li span i{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 26px;
+    text-align: right;
+    line-height: 80px;
+    padding-right: 15px;
+  
+}
+
+.footer-img li{
+    margin-right: 10px;
+}
+.footer-img li a img{
+   
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.footer-about li a::after{
+   
+    content: '';
+    display: block;
+    width: 0%;
+    height: 1px;
+    background-color:white;
+    transition: width .3s;
+   
+}
+
+.footer-about li a:hover::after{
+   
+    width: 50%;
+    transition: width .3s; 
+}

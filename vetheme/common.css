@@ -1,0 +1,63 @@
+.bg-f8f8f8{background-color: #f8f8f8;}
+.font-sz-11{font-size: 11px;}
+.font-sz-12{font-size: 12px;}
+.font-sz-14{font-size: 14px;}
+.font-sz-16{font-size: 16px;}
+.font-sz-18{font-size: 18px;}
+.font-sz-24{font-size: 24px;}
+.font-sz-40{font-size: 40px;}
+
+.p-15{padding: 15px;}
+.pt-13{padding-top: 13px;}
+.pt-20{padding-top: 20px;}
+.pt-30{padding-top: 30px;}
+.pt-70{padding-top: 70px;}
+.pt-100{padding-top: 100px;}
+
+
+.pb-20{padding-bottom: 20px;}
+.pb-30{padding-bottom: 30px;}
+.pb-70{padding-bottom: 70px;}
+.pb-100{padding-bottom: 100px;}
+
+.pr-20{padding-right:20px;}
+.pr-40{padding-right: 40px;}
+.pr-45{padding-right: 45px;}
+
+.ml-40{margin-left: 40px;}
+.mt-20{margin-top: 20px;}
+
+
+.mb-20{margin-bottom: 20px;}
+.mb-25{margin-bottom: 25px;}
+.mb-30{margin-bottom: 30px;}
+.mb-40{margin-bottom: 40px;}
+
+
+
+.txt-center{text-align: center;}
+.txt-end{text-align: end;}
+
+.ul-list-style{list-style-type: none;}
+.txt-decor{text-decoration: none !important;}
+.d-flex{display: flex;}
+.clr-f{color: #fff;}
+.clr-777{color: #777;}
+.clr-999{color:#999;}
+.clr-ff4c3b{color: #ff4c3b;}
+.bg-ec6957{background-color: #ec6957;}
+.bg-0{background-color: #000;}
+
+
+
+.fnt-we-bold{font-weight: bold;}
+.fnt-we-700{font-weight: 700;}
+.cursor-point{cursor: pointer;}
+.letter-spacing-08{letter-spacing: 8px;}
+a{text-decoration: none !important;}
+.d-flex{ display: flex;}
+.justify-content-center{justify-content: center;}
+.justify-content-between{justify-content:space-between;}
+.justify-content-end{ justify-content:flex-end; }
+
+.align-item-center{ align-items: center;}
